@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox{
+    background-color: blueviolet;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    flex-flow: row;
+    /* justify-content:center ; */
+    /* justify-content: space-around; */
+}
+.flexbox > div{
+    background-color: lightcyan;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 50px;
+    padding-left: 1rem;
+    display: block;
+
+}
+body{
+    background-color: rgb(228, 243, 252);
+}
+
+.son{
+    margin-top: 13rem;
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 10px;
+    width: 20rem;
+    height: 16rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    border: none;
+    box-shadow:  1px 1px 4px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.box1{
+   
+    height: 2rem;
+    box-shadow: 1px 1px 4px;
+    border: none;
+    padding-left: 1rem;
+    border-radius: 10px;
+    
+}
+.box2{
+   
+    height:2rem;
+    box-shadow: 1px 1px 4px;
+    border: none;
+    padding-left: 1rem;
+    border-radius:10px ;
+}
+.don{
+    margin-left: 2.4rem;
+    margin-top: 1.6rem;
+    width: 6rem;
+    height: 2.1rem;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+}
+
+.don1{
+    color: white;
+   text-decoration: none;
+}
